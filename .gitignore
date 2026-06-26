@@ -21,3 +21,7 @@ __pycache__/
 # 系统文件
 Thumbs.db
 Desktop.ini
+
+# SES-Net 推理测试图（体积大，非代码/权重）
+SES-Net-main/test_outputs_batch/
+SES-Net-main/test_outputs_v2/
