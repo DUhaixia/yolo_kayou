@@ -1,0 +1,23 @@
+# 未选中的同级目录（不上传）
+/ultra/
+/ultralytics-main/
+/_stock_ultra_tmp/
+
+# yolo 主项目：不上传训练数据、权重、训练输出
+/yolo/runs/
+/yolo/ultralytics-main/runs/
+/yolo/**/*.pt
+/yolo/**/*.pth
+/yolo/**/weights/
+/yolo/**/pth/
+
+# Python / IDE 缓存
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+*.egg-info/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
